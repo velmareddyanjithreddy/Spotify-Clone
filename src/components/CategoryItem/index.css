@@ -1,0 +1,39 @@
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .category-item {
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.category-image {
+  height: 82px;
+  width: 82px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .category-image {
+    height: 166px;
+    width: 166px;
+    border-radius: 8px;
+  }
+}
+.category-name {
+  font: 600 12px 'Roboto';
+  line-height: 15px;
+  color: #f8fafc;
+}
+
+@media (min-width: 768px) {
+  .category-name {
+    font-size: 20px;
+  }
+}

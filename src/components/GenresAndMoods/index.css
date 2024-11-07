@@ -1,0 +1,40 @@
+.category-title {
+  font: 700 24px 'Roboto';
+  color: #ffffff;
+  line-height: 32px;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+
+.failure-view-container {
+  background-color: #040306;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  max-width: 315px;
+  width: 90%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.error-description {
+  font: 500 12px 'Roboto';
+  color: #ffffff;
+}
+.try-again-button {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 2px 12px;
+  font: 600 12px 'Roboto';
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

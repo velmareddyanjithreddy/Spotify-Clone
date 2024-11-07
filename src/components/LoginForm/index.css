@@ -1,0 +1,93 @@
+.login-background-container {
+  background-image: url('https://res.cloudinary.com/drbdvbv2c/image/upload/v1728292821/Group_138_kqgjfr.svg');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .login-background-container {
+    background-image: url('https://res.cloudinary.com/drbdvbv2c/image/upload/v1728292356/Group_138_ovsu4d.svg');
+  }
+}
+
+.login-card-container {
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border-radius: 8px;
+  max-width: 500px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .login-card-container {
+    max-width: 400px;
+  }
+}
+
+.login-website-logo {
+  width: 100px;
+}
+.spotify-remix-title {
+  font: 700 28px 'Roboto';
+  color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-label {
+  font: 500 12px 'Roboto';
+  color: #ffffff;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+
+.user-input {
+  background-color: #d9d9d9;
+  border-radius: 4px;
+  height: 40px;
+  outline: none;
+  font: 500 20px 'Roboto';
+  border: 1px solid #d9d9d9;
+}
+
+.login-button {
+  background-color: #1db954;
+  color: #ffffff;
+  font: 500 18px 'Roboto';
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .login-button {
+    align-self: center;
+  }
+}
+
+.error-message {
+  color: #eb2424;
+  font: 500 14px 'Roboto';
+  margin-top:3px;
+}

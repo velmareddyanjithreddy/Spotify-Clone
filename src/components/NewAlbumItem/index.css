@@ -1,0 +1,37 @@
+.album-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.album-image {
+  height: 82px;
+  width: 82px;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .album-image {
+    height: 166px;
+    width: 166px;
+    border-radius: 8px;
+  }
+}
+
+.album-name {
+  font: 600 12px 'Roboto';
+  line-height: 15px;
+  color: #f8fafc;
+  text-align: center;
+  max-width: 75px;
+}
+
+@media (min-width: 768px) {
+  .album-name {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 150px;
+  }
+}
